@@ -75,12 +75,13 @@ legend("Funcion Inyectiva");
 
 
 
-disp('Esta funcion es biyectiva por que para serlo deve 
+disp('Esta funcion es biyectiva por que para cerlo deve 
 ser inyectiva y sobreyectiva,aspectos que cumple perfectamente,
-para ser inyectiva podemos ver que cada elemento del contardominio 
+para ser inyectiva podemos ver que cada elemento del contradominio 
 le corresponde un solo elemento del dominio y para la sobreyectiva
 nos indica que  cuando  a  todo  elemento  del  contradominio  le
-corresponde uno o más elementos del dominio,por lo tanto es biyectiva');
+corresponde uno o más elementos del dominio y cumple con estas caracteristicas,
+por lo tanto es biyectiva');
 %Dominio de la funcion.........
 x = -32:1:45;
 %Regla de correspondencia
@@ -94,12 +95,11 @@ legend("Funcion Biyectiva");
 
 
 
-disp('Esta funcion es Sobreyectiva por que cuando  a  todo  elemento  del  contradominio  le
-corresponde uno o más elementos del dominio. No deben sobrar elementos en
-el contradominio,no importa  que  algunos elementos del contradominio sean
-imágenes de más de un elemento del dominio y por que la grafica
- va de abajo hacia arriva o viceversa y por lo que vi en algunos videos si pasa esto 
- es Sobreyectiva');
+disp('Esta funcion es Inyectiva por que a cada elemento del
+contradominio le corresponde un solo elemento de el dominio o en algunos
+casos no lo tiene y no afecta en nada,es lo que sucede en esta grafica ya que 
+se corta,ademas si nos apoyamos de una linea horizontal y cortamos la 
+recta solo tocara un punto por eso es Inyectiva');
 %Dominio de la funcion.........
 x = -20:1:20;
 %Regla de correspondencia
@@ -109,7 +109,7 @@ plot(x,fx);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion f(x)=(x^4+1)/(x^3)  ");
-legend("Funcion Sobreyectiva");
+legend("Funcion Inyectiva");
 
 
 
